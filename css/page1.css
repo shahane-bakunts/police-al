@@ -1,0 +1,459 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "AgencyFB";
+    font-weight: normal;
+    font-style: normal;
+    color: #FFF;
+}
+
+header {
+    background: #000000;
+    min-height: 112px;
+}
+
+/******Helpers *******/
+.no-padding {
+    padding: 0px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.top-25 {
+    margin-top: 25px;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+}
+
+.padding-bottom-135{
+    padding-bottom: 135px;
+}
+
+.size-29 {
+    font-size: 29px;
+}
+
+.size-24 {
+    font-size: 24px;
+}
+
+.size-32 {
+    font-size: 32px;
+}
+
+.size-36 {
+    font-size: 36px;
+}
+
+.black-bg {
+    background-color: #202020;
+}
+
+.min-height-700 {
+    min-height: 700;
+}
+
+.white-bg {
+    background-color: f9fcfe;
+}
+
+.min-height-425 {
+    min-height: 425px;
+}
+
+.stripped-blue-bg {
+    background: url(../images/stripped-blue.png);
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+.padding-top-100 {
+    padding-top: 100px;
+}
+
+a.button {
+    text-transform: uppercase;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000f9a;
+    background-color: #ffffff;
+    font-size: 27px;
+    width: 244px;
+    height: 70px;
+    text-align: center;
+    padding-top: 14px;
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/******Header *******/
+
+.hamburger {
+    margin-top: 28px;
+}
+
+.hamburger img {
+    max-height: 45px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    margin-top: 13px;
+    display: inline-block;
+    max-height: 72px;
+}
+
+.header-text-big {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.header-text {
+    font-size: 19px;
+    color: #ffffff;
+}
+
+
+/******Section 1: Make a child smile today *******/
+
+.section-make-a-child-smile .main-pic {
+    background: url(../images/main-pic.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 640px;
+}
+
+.section-make-a-child-smile .stripped-blue {
+    display: block;
+    min-height: 640px;
+    padding-right: 0px;
+}
+
+.stripped-blue .text {
+    color: #fefefe;
+    float: right;
+    margin-top: 56px;
+    width: 305px;
+    margin-right: 4px;
+}
+
+.section-make-a-child-smile .capital {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 80px;
+    font-family: "AgencyFB-Bold";
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+.section-make-a-child-smile .capital span {
+    color: #ff0101;
+}
+
+
+
+
+/**********Section 2: Boston police athletic league *****/
+
+
+.boston-police-athletic .map {
+    background: url(../images/Massachusetts_sil.png);
+    background-size: 64%;
+    background-position: 125% 11%;
+    min-height: 460px;
+    background-repeat: no-repeat;
+}
+
+
+.capital1, .boston-police-athletic .capital1, .section-more-ways .capital1  {
+    font-size: 51px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "AgencyFB-Bold";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.boston-police-athletic .text {
+    color: #ffffff;
+    margin-top: 75px;
+}
+
+.boston-police-athletic a.button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/**********Section 3: Why support PAL *****/
+.section-why-support-pal {
+    text-align: center;
+    color: #000;
+}
+
+.section-why-support-pal .capital1 {
+    font-size: 45px;
+}
+.pic {
+    background: url(../images/video-pal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    min-height: 600px;
+}
+
+.section-why-support-pal .button {
+    margin-top: 18px;
+    float: none;
+    display: inline-block;
+}
+
+.video-block .video-arrow img {
+    max-height: 82px;
+}
+
+@media (min-width: 768px) {
+    .section-not-in-boston .map1 {
+        min-height: 550px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .section-not-in-boston .map1 {
+        min-height: 650px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .section-not-in-boston .map1{
+        min-height: 700px;
+    }
+}
+
+
+
+/**********Section 4: More ways to help PAL *****/
+.section-more-ways {
+    color: #000;
+}
+.capital1 span {
+    color: #ff0101;
+}
+
+.section-more-ways .text {
+    color: #000000;
+    margin-top: 118px;
+}
+
+.section-more-ways .form {
+    margin-top: 118px;
+}
+
+.section-more-ways input.email {
+    text-transform: uppercase;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000f9a;
+    background-color: #ffffff;
+    font-size: 26px;
+    width: 100%;
+    height: 78px;
+    text-align: left;
+    padding-left: 20px;
+    float: left;
+}
+
+.section-more-ways button[type=submit] {
+    text-transform: uppercase;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000f9a;
+    background-color: #ffffff;
+    font-size: 26px;
+    width: 240px;
+    height: 70px;
+    text-align: center;
+    margin-top: 40px;
+    float: left;
+    color: #000f9a;
+    margin-bottom: 40px;
+}
+
+/**********Section 5: News and Events *****/
+
+
+.slide-text-content {
+    font-size: 16px;
+}
+
+.slider-content{
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.news {
+    margin-top: 93px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.read-more {
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFF;
+    background-color: transparent !important;
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    padding-top: 5px;
+}
+
+@media (min-width: 768px) {
+    .read-more {
+        width: 140px;
+    }
+}
+
+.news .capital1 {
+    padding-left: 75px;
+}
+
+
+/**********Section 6: Roadman ride for kids *****/
+.section-roadman-ride {
+    padding-bottom: 135px;
+}
+
+.section-roadman-ride .text {
+    color: #000000;
+    margin-top: 118px;
+}
+
+.section-roadman-ride .button {
+    margin-top:30px;
+}
+
+
+/**********Section 7: Connect and share  *****/
+
+.section-social {
+    color: #ffffff;
+    padding-top: 23px;
+    
+}
+
+.section-social img {
+    max-height: 65px;
+}
+
+.section-social .blue .text {
+    text-align: left;
+}
+
+.capital1.connect {
+    float: left;
+}
+
+.social-icons {
+    padding-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+    .social-icons {
+    padding-bottom: 50px;
+}
+}
+
+/**********Section 8: Not in Boston  *****/
+.section-not-in-boston {
+    padding-top: 60px;
+}
+
+.section-not-in-boston .capital1 {
+    font-size: 46px;
+}
+
+.section-not-in-boston .capital1 {
+    
+}
+.section-not-in-boston .map1 {
+    background: url(../images/map-1.png);
+    background-size: 121%;
+    background-position: 58% 0%;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 500px;
+}
+
+@media (min-width: 768px) {
+    .section-not-in-boston .map1 {
+        min-height: 550px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .section-not-in-boston .map1 {
+        min-height: 650px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .section-not-in-boston .map1{
+        min-height: 700px;
+    }
+}
+
+/**********Footer  *****/
+
+footer {
+    background-color: #000;
+    color: #ffffff;
+    font-size: 24px;
+    min-height: 90px;
+    padding-top: 10px;
+}
+
+.arrow-up {
+    right:15px;
+    top:15px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/**************/

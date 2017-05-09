@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'AgencyFB-BoldCondensed';
+	src: url('../fonts/AgencyFB-BoldCondensed.eot');
+	src: url('../fonts/AgencyFB-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AgencyFB-BoldCondensed.woff2') format('woff2'),
+		url('../fonts/AgencyFB-BoldCondensed.woff') format('woff'),
+		url('../fonts/AgencyFB-BoldCondensed.ttf') format('truetype'),
+		url('../fonts/AgencyFB-BoldCondensed.svg#AgencyFB-BoldCondensed') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'AgencyFB-Bold';
+	src: url('../fonts/AgencyFB-Bold.eot');
+	src: url('../fonts/AgencyFB-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AgencyFB-Bold.woff2') format('woff2'),
+		url('../fonts/AgencyFB-Bold.woff') format('woff'),
+		url('../fonts/AgencyFB-Bold.ttf') format('truetype'),
+		url('../fonts/AgencyFB-Bold.svg#AgencyFB-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AgencyFB-BoldCompressed';
+	src: url('../fonts/AgencyFB-BoldCompressed.eot');
+	src: url('../fonts/AgencyFB-BoldCompressed.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AgencyFB-BoldCompressed.woff2') format('woff2'),
+		url('../fonts/AgencyFB-BoldCompressed.woff') format('woff'),
+		url('../fonts/AgencyFB-BoldCompressed.ttf') format('truetype'),
+		url('../fonts/AgencyFB-BoldCompressed.svg#AgencyFB-BoldCompressed') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AgencyFB-BlackCompressed';
+	src: url('../fonts/AgencyFB-BlackCompressed.eot');
+	src: url('../fonts/AgencyFB-BlackCompressed.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AgencyFB-BlackCompressed.woff2') format('woff2'),
+		url('../fonts/AgencyFB-BlackCompressed.woff') format('woff'),
+		url('../fonts/AgencyFB-BlackCompressed.ttf') format('truetype'),
+		url('../fonts/AgencyFB-BlackCompressed.svg#AgencyFB-BlackCompressed') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'AgencyFB-BlackCondensed';
+	src: url('../fonts/AgencyFB-BlackCondensed.eot');
+	src: url('../fonts/AgencyFB-BlackCondensed.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AgencyFB-BlackCondensed.woff2') format('woff2'),
+		url('../fonts/AgencyFB-BlackCondensed.woff') format('woff'),
+		url('../fonts/AgencyFB-BlackCondensed.ttf') format('truetype'),
+		url('../fonts/AgencyFB-BlackCondensed.svg#AgencyFB-BlackCondensed') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AgencyFB';
+	src: url('../fonts/AgencyFB-Reg.eot');
+	src: url('../fonts/AgencyFB-Reg.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AgencyFB-Reg.woff2') format('woff2'),
+		url('../fonts/AgencyFB-Reg.woff') format('woff'),
+		url('../fonts/AgencyFB-Reg.ttf') format('truetype'),
+		url('../fonts/AgencyFB-Reg.svg#AgencyFB-Reg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
